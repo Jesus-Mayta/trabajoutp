@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Portafolio de elvis carpio </title>
+	<link rel="stylesheet" type="text/css" href="css/vendedor/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=lato"    rel="stylesheet" >
+</head>
+<body>
+	<selction class="lateral">
+    <div class="perfil">
+    	<figure class="perfil__circulo">
+    		<img src="img/imagen.jpg" alt ="" class="perfil__foto" ></img>
+    	</figure>
+    	<h1 class="perfil__nombres">elvis carpio pizarro</h1>
+    	</div>
+    	<div class="informacion">
+    	<h2 class="informacion__titulo">DESARROLLADOR FROMEND </h2>
+    	<p class=="informacion_descripcion"> lorem ipsum dolor sit amet concectetur 
+    	adipiicing  elit sed de eiusmod tempor incididunt ut labore et dolore magna aliqua 
+    	ut anim ed minim veniam quis nostrud exercitation ullamco laboris nisi ut
+    	aliquid ex ea comodo consequiat </p>
+    	<ul class="habilidades">
+    	<li class="habidad_proyecto">html 5</li>
+    	<li class="habidad_proyecto">css 3</li>
+    	<li class="habidad_proyecto">pythom </li>
+    	<li class="habidad_proyecto">Django</li>
+    	</ul>
+    	</div>
+    	</selction>
+  <selection class="proyectos">
+  	      <div class="row">
+  		    <article class="proyecto">
+  			<img src="" alt="" class="proyecto imagen"></img>
+  			<h3 class="proyecto__titulo">Proyecto 1</h3>
+  			<p class="proyecto__descripcion">lorem ipsum dolor sit amet consectetur adipisicing elit sed do elumod tempor incididunt ut labore et dolore man eliqua ut enim ad minim venias quis nostrud exercitation ullanco laboris </p>
+
+  			<ul class="habilidades" >
+  			<li class="habidad_proyecto">html 5</li>
+    	    <li class="habidad_proyecto">css 3</li>
+    	  <li class="habidad_proyecto">pythom </li >
+    	    <li class="habidad_proyecto">Django</li>	</ul>
+    	</article>
+    	<article class="proyecto">
+    		<img src="" alt="" class="proyecto imagen"></img>
+  			<h3 class="proyecto__titulo">Proyecto 1</h3>
+  			<p class="proyecto__descripcion">lorem ipsum dolor sit amet consectetur adipisicing elit sed do elumod tempor incididunt ut labore et dolore man eliqua ut enim ad minim venias quis nostrud exercitation ullanco laboris </p>
+  			<ul class="habilidades" >
+  			<li class="habidad_proyecto">html 5</li>
+    	    <li class="habidad_proyecto">css 3</li>
+    	  <li class="habidad_proyecto">pythom </li >
+    	    <li class="habidad_proyecto">Django</li>	</ul>
+    	    </article>
+    	    <article class="proyecto">
+    	    	<img src="" alt="" class="proyecto imagen"></img>
+  			<h3 class="proyecto__titulo">Proyecto 1</h3>
+  			<p class="proyecto__descripcion">lorem ipsum dolor sit amet consectetur adipisicing elit sed do elumod tempor incididunt ut labore et dolore man eliqua ut enim ad minim venias quis nostrud exercitation ullanco laboris </p>
+  			<ul class="habilidades" >
+  			<li class="habidad_proyecto">html 5</li>
+    	    <li class="habidad_proyecto">css 3</li>
+    	  <li class="habidad_proyecto">pythom </li >
+    	    <li class="habidad_proyecto">Django</li>
+    	</ul>
+    </article>
+</div>
+</selection>
+
+
+
+</body>
+</html>
+{
+box-sizing: border-box;
+}
+html{
+font-family: 'lato' sans-serif;
+}
+.lateral{
+background-color: #56B3AB;
+bottom: 0;
+left: 0;
+padding: lem;
+position: fixed;
+top: 0;
+width: 350 px;
+}
+.perfil__circulo{
+border-radius: 50%;
+width: 50px;
+overflow: hidden;
+margin: 0;
+height: 50px;
+}
+.perfil__foto{
+
+	width: 100%;
+}
+.perfil__nombres{
+	color:#fff;
+	font-size :20px;
+	margin-left: .5em;
+	width: 250px;
+}
+.perfil__nombres,.perfil__circulo{
+
+   display: inline-block;
+   vertical-align: middle;
+
+}
+.informacion{
+color: #0F6A62;
+position: absolute;
+bottom: 1em;
+}
+.informacion__titulo{
+ font-size :18px;
+
+}
+.habilidades{
+
+padding: 18px;
+
+}
+.habilidad{
+	background-color:#0F6A62;
+	color: #fff;
+	display: inline-block;
+	font-size :12px;
+	text-transform: uppercase;
+	padding: .5em; 
+}
+.habilidad__proyecto{
+background-color: #29597c;
+color: #fff;
+display: inline-block;
+font-size:12px;
+text-transform: uppercase;
+padding: .5em;
+}
+.proyectos{
+
+margin-left: 350px;
+padding: 1em;
+display: table;
+}
+.proyecto{
+	display: table-cell;
+	padding: .1em;
+	width: 25%;
+}
+.proyecto__imagen{
+width: 100%;
+}
+.proyecto__titulo{
+color:#29597C;
+font-size :18px;
+
+}
+.proyecto__descripcion{
+
+color:#797D7F;
+
+}
